@@ -23,16 +23,16 @@ public class MainMethod {
 
             switch (choice) {
                 case 1: //call function for Addition
-                    calc.addition();
+                    System.out.println(calc.addition());
                     break;
                 case 2: //call function for Subtraction
-                    calc.subtraction();
+                    System.out.println(calc.subtraction());
                     break;
                 case 3: //call function for Multiplication
-                    calc.multiplication();
+                    System.out.println(calc.multiplication());
                     break;
                 case 4: //call function for Division
-                    calc.division();
+                    System.out.println(calc.division());
                     break;
                 default:
                     System.out.println("Please enter 1, 2, 3, or 4");
