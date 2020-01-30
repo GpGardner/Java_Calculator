@@ -80,14 +80,14 @@ public class MainMethod {
                     System.out.println(sinCalc.sine());
                     break;
                 case 8: //call for cosine
-                    System.out.println("Enter angle to have its sine calculated");
+                    System.out.println("Enter angle to have its cosine calculated");
                     int cos1 = input.nextInt();
 
                     Calculator cosCalc = new Calculator(cos1);
                     System.out.println(cosCalc.cosine());
                     break;
                 case 9: //call for tangent
-                    System.out.println("Enter angle to have its sine calculated");
+                    System.out.println("Enter angle to have its tangent calculated");
                     int tan1 = input.nextInt();
 
                     Calculator tanCalc = new Calculator(tan1);
